@@ -1,7 +1,7 @@
 Name: daq
 Summary: Data acquisition library
 Version: 2.0.2
-Release: 2%{?dist}
+Release: 3%{?dist}
 License: GPLv2
 Group: System Environment/Libraries
 Source: daq-%{version}.tar.gz
