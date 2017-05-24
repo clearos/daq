@@ -1,7 +1,7 @@
 Name: daq
 Summary: Data acquisition library
-Version: 2.0.2
-Release: 3%{?dist}
+Version: 2.0.6
+Release: 1%{?dist}
 License: GPLv2
 Group: System Environment/Libraries
 Source: daq-%{version}.tar.gz
@@ -79,7 +79,7 @@ rm -f $RPM_BUILD_ROOT%{_libdir}/libdaq_static_modules.la
 %doc ChangeLog COPYING README
 %{_libdir}/libdaq.so
 %{_libdir}/libdaq.so.2
-%{_libdir}/libdaq.so.2.0.2
+%{_libdir}/libdaq.so.2.0.4
 %{_libdir}/libsfbpf.so
 %{_libdir}/libsfbpf.so.0
 %{_libdir}/libsfbpf.so.0.0.1
@@ -91,6 +91,9 @@ rm -f $RPM_BUILD_ROOT%{_libdir}/libdaq_static_modules.la
 %{_bindir}/daq-modules-config
 
 %changelog
+* Wed May 24 2017 ClearFoundation <developer@clearfoundation.com> 2.0.6-1
+- Updated to 2.0.6
+
 * Tue Oct 21 2014 ClearFoundation <developer@clearfoundation.com> 2.0.2-1
 - Updated to 2.0.2
 
